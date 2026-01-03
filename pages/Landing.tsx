@@ -227,7 +227,7 @@ const Landing: React.FC = () => {
                       <h3 className="text-3xl font-bold mb-4">Ready to clear the clutter?</h3>
                       <p className="text-primary-100 mb-8 text-lg">Join thousands of responsible citizens contributing to a greener future.</p>
                       <Link to="/register">
-                          <Button className="px-8 py-4 bg-white text-primary-900 hover:bg-slate-100 font-bold text-lg border-0">
+                          <Button className="px-8 py-4 bg-black text-primary-900 hover:bg-slate-100 font-bold text-lg border-0">
                               Start Scrapping Now
                           </Button>
                       </Link>
