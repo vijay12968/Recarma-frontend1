@@ -98,10 +98,10 @@ const Landing: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-primary-800/50">
                   {[
-                      { label: 'Vehicles Scrapped', value: '5,000+' },
-                      { label: 'Happy Owners', value: '4,800+' },
-                      { label: 'Tons CO2 Saved', value: '1,200+' },
-                      { label: 'Value Generated', value: '₹15 Cr+' },
+                      { label: 'Vehicles Scrapped', value: '5' },
+                      { label: 'Happy Owners', value: '10' },
+                      { label: 'Tons CO2 Saved', value: '120' },
+                      { label: 'Value Generated', value: '₹20 L+' },
                   ].map((stat, idx) => (
                       <div key={idx} className="p-2">
                           <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">{stat.value}</div>
